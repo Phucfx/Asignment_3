@@ -127,10 +127,11 @@ li span {
 
 /* Job information */
 
-.job-content {
+.card {
    display: grid;
    grid-template-columns: 75% 25%;
-   grid-template-rows: 44px 70%;
+   height: 100%;
+   grid-template-rows: 44px auto;
    border: 1px solid #ccc;
    padding: 24px;
 }
